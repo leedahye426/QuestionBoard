@@ -18,4 +18,9 @@ public class SbbApplicationTest {
             this.questionService.create(subject, content);
         }
     }
+
+    @Test
+    void t1() {
+        questionService.create("test 제목", "test 내용");
+    }
 }
